@@ -1,0 +1,23 @@
+_id: req_d898941da0074005a073a92c81705639
+type: Request
+parentId: fld_cb22ee9037e540e9a94d0e2fd8034c26
+modified: 1695060412915
+created: 1695060375615
+url: "{{ _.base_url }}/profile"
+name: Get all profiles
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695060375615
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
