@@ -1,0 +1,37 @@
+_id: req_42c3b08ad17246058e15af0694dc16fe
+type: Request
+parentId: fld_f881f8fce929419cb2ab79edce5e11f4
+modified: 1695059155095
+created: 1695059037990
+url: "{{ _.base_url }}/apply"
+name: Create Apply
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "companyName": "Example Company",
+      "clientName": "Client Name",
+      "platform": "Web",
+      "positionToApply": "Software Engineer",
+      "link": "https://example.com/job",
+      "user": "64e638b0850dbb7dc3939dd5",    
+      "profile": "5f7d23a2c4a4b12c3e2f3d4f",  
+      "notes": "These are some notes."
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695058194828
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

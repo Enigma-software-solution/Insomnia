@@ -1,0 +1,27 @@
+_id: env_5ed2ed87f54f2c9ef67a0fbabeb857e318cfdc5e
+type: Environment
+parentId: wrk_43451a6903914a7ca6e6617ee37ff82e
+modified: 1695058592336
+created: 1695057961910
+name: Base Environment
+data:
+  base_url: http://localhost:8080/api
+  now: "{% now 'millis', '' %}"
+  GLOBAL_HEADERS:
+    Accept: application/json
+    Authorization: Bearer {% response 'body',
+      'req_4127d58e3c5547b3b1f1f1b205585a62', 'b64::JC50b2tlbg==::46b',
+      'always', 60 %}
+    Content-Type: multipart/form-data
+dataPropertyOrder:
+  "&":
+    - base_url
+    - now
+    - GLOBAL_HEADERS
+  "&~|GLOBAL_HEADERS":
+    - Accept
+    - Authorization
+    - Content-Type
+color: null
+isPrivate: false
+metaSortKey: 1695057961910

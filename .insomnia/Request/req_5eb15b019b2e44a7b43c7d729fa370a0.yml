@@ -1,0 +1,23 @@
+_id: req_5eb15b019b2e44a7b43c7d729fa370a0
+type: Request
+parentId: fld_f881f8fce929419cb2ab79edce5e11f4
+modified: 1695058230939
+created: 1695058194728
+url: "{{ _.base_url }}/apply"
+name: Get all applies
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695058194728
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

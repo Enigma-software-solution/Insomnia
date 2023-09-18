@@ -1,0 +1,34 @@
+_id: req_ffefb08fddef47709c3127a584c5f55f
+type: Request
+parentId: fld_bf2c235ddf7e48a98d863332a2f46780
+modified: 1695058170288
+created: 1695058068108
+url: "{{ _.base_url }}/register"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "test1@test.com",
+      "password": "test@123",
+      "first_name": "John",
+      "last_name": "Doe",
+      "role": "user"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695058068108
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
