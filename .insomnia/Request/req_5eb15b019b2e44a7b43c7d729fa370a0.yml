@@ -1,7 +1,7 @@
 _id: req_5eb15b019b2e44a7b43c7d729fa370a0
 type: Request
 parentId: fld_f881f8fce929419cb2ab79edce5e11f4
-modified: 1695070506245
+modified: 1695072254735
 created: 1695058194728
 url: "{{ _.base_url }}/apply"
 name: Get all applies
@@ -11,12 +11,12 @@ body: {}
 parameters:
   - id: pair_7510804eb3d44fdbb8f23a1501174699
     name: pageSize
-    value: "2"
+    value: "5"
     description: per page items
     disabled: true
   - id: pair_fc4a3a3210c349148afc3dc814f07173
     name: page
-    value: "2"
+    value: "1"
     description: page no
     disabled: true
   - id: pair_5682d8061a9a49ecb3ca837cebe83785
