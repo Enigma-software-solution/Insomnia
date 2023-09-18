@@ -1,7 +1,7 @@
 _id: req_5eb15b019b2e44a7b43c7d729fa370a0
 type: Request
 parentId: fld_f881f8fce929419cb2ab79edce5e11f4
-modified: 1695061423269
+modified: 1695070506245
 created: 1695058194728
 url: "{{ _.base_url }}/apply"
 name: Get all applies
@@ -16,7 +16,7 @@ parameters:
     disabled: true
   - id: pair_fc4a3a3210c349148afc3dc814f07173
     name: page
-    value: "5"
+    value: "2"
     description: page no
     disabled: true
   - id: pair_5682d8061a9a49ecb3ca837cebe83785
@@ -28,10 +28,12 @@ parameters:
     name: userId
     value: 64e638b0850dbb7dc3939dd5
     description: only for admin
+    disabled: true
   - id: pair_3ba17760a9794bd1b2bd5cb198f10ad0
     name: profileId
     value: 64fa0a7637eb5d2ee252e824
     description: only for admin
+    disabled: true
 headers:
   - name: User-Agent
     value: insomnia/2023.5.8
